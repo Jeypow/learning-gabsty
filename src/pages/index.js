@@ -7,10 +7,12 @@ import * as React from "react";
 //homepage 
 const Greeting  = () => {
   return (
-  <div>
-  <h1>passa o bic!</h1> 
-  </div>
+    <main>
+      <title>Home Page</title>
+         <h1>ohayo gozaimasu</h1>
+         <p>salve marcos!</p>
+         </main>
   );
 };
- // step 3 : export yout component
+ // step 3 : export your component
 export default Greeting; 
