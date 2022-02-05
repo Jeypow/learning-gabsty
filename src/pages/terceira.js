@@ -1,16 +1,13 @@
 import * as React from "react";
-import {Link} from "gatsby";
+import Layout from '../components/Layout'
 
 const terceira = () => {
   return (
+    <Layout pageTitle="terceira">
         <main>
-          <title>
-          Page one to link gatsby package
-          </title>
-          <h1> arorrodo</h1>
-          <Link to ="/">Home</Link>
           <p>Perdeu!</p>
         </main>
+        </Layout>
         );  
 };
  
